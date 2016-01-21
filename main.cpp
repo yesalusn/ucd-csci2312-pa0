@@ -1,14 +1,15 @@
 /**
  * File: main.cpp
  * Project: ucd-csci2312-pa0
- * Author: Ivo Georgiev
+ * Author: Nikki Yesalusky
  * Date: 2016-01-18
  */
 #include <iostream>
+#include<stdlib.h>
 
 int main() {
-    // TODO Substitute 11 with your UCD ID number, modulo 13 (myId % 13)
-    std::cout << "Hello, world! My number is " << 10 << '!' << std::endl;
-
+    int myID = 105740898;
+    std::cout << "Hello, world! My number is " << myID % 13 << '!' << std::endl;
+    system("pause");
     return 0;
 }
